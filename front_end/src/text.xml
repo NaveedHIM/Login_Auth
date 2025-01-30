@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' ?><!--
+Created by Alight Motion (http://alightmotion.com)
+Exported: 2023-05-13 09:22 AM
+4.1.0 (0588)
+6b26a42 (22-Apr-2022 6:50:28 am)
+-->
+<scene title="New Project 96" width="1920" height="1080" exportWidth="1920" exportHeight="1080" precompose="dynamicResolution" bgcolor="#00000000" totalTime="5065" fps="30" modifiedTime="1683949977394" amver="588" ffver="105" am="com.alightcreative.motion/4.1.0" amplatform="android" retime="freeze" retimeAdaptFPS="false">
+  <media uri="content://media/external/images/media/1000033220" filename="New Project 95 [F3E014E].png" title="New Project 95 [F3E014E].png" type="image/png" size="82103" orientation="0" infoUpdated="1683949959763" width="1920" height="1080" />
+  <media uri="content://media/external/video/media/1000033223" filename="burn text mask.mp4" title="burn text mask.mp4" type="video/mp4" duration="5015000" size="1940430" fps="30" orientation="0" infoUpdated="1683949959763" width="1920" height="1080" />
+  <media uri="content://media/external/video/media/1000033222" filename="Fire edge.mp4" title="Fire edge.mp4" type="video/mp4" duration="5015000" size="3243020" fps="30" orientation="0" infoUpdated="1683949959763" width="1920" height="1080" />
+  <media uri="content://media/external/video/media/1000033224" filename="amber.mp4" title="amber.mp4" type="video/mp4" duration="5015000" size="4866294" fps="30" orientation="0" infoUpdated="1683949959763" width="1920" height="1080" />
+  <media uri="content://media/external/video/media/1000033221" filename="Smoke.mp4" title="Smoke.mp4" type="video/mp4" duration="5015000" size="3308822" fps="30" orientation="0" infoUpdated="1683949959763" width="1920" height="1080" />
+  <media uri="content://media/external/images/media/1000033230" filename="1683708483603.png" title="1683708483603.png" type="image/png" size="110384" orientation="0" infoUpdated="1683949959763" width="1920" height="1080" />
+  <shape id="6321599" label="Black color" startTime="0" endTime="5065" fillType="color" parent="6321618" s=".rect">
+    <transform>
+      <scale value="9.600000,5.400000" />
+    </transform>
+    <fillColor value="#ff000000" />
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+  </shape>
+  <shape id="6321600" label="Your text with gray color" startTime="0" endTime="5065" fillType="media" fillImage="content://media/external/images/media/1000033220" parent="6321618" s=".rect">
+    <transform />
+    <property name="size" type="vec2" value="960.000000,540.000000" />
+  </shape>
+  <shape id="6321601" label="1 vali video " startTime="0" endTime="5047" fillType="media" blending="linear-burn" fillVideo="content://media/external/video/media/1000033223" outTime="5015" parent="6321618" s=".rect">
+    <transform />
+    <effect id="com.alightcreative.effects.gaussianblur" locallyApplied="true">
+      <property name="strength" type="float" value="0.240000" />
+    </effect>
+    <effect id="com.alightcreative.replacecolor" locallyApplied="true">
+      <property name="oldcolor" type="color" value="#ff000000" />
+      <property name="newcolor" type="color" value="#ff2c2621" />
+      <property name="threshold" type="float" value="0.250000" />
+      <property name="feather" type="float" value="0.250000" />
+      <property name="alpha" type="float" value="1.000000" />
+      <property name="lockLuminance" type="bool" value="false" />
+    </effect>
+    <effect id="com.alightcreative.effects.colortune2" locallyApplied="true">
+      <property name="gamma" type="vec3" value="14.832905,0.789972,0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="960.000000,540.000000" />
+  </shape>
+  <shape id="6321609" label="2 vali video" startTime="0" endTime="5047" fillType="media" blending="lighter-color" fillVideo="content://media/external/video/media/1000033222" outTime="5015" parent="6321618" s=".rect">
+    <transform />
+    <property name="size" type="vec2" value="960.000000,540.000000" />
+  </shape>
+  <shape id="6321602" label="1 vali video" startTime="0" endTime="5047" fillType="media" blending="linear-burn" fillVideo="content://media/external/video/media/1000033223" outTime="5015" parent="6321618" s=".rect">
+    <transform />
+    <property name="size" type="vec2" value="960.000000,540.000000" />
+  </shape>
+  <shape id="6321614" label="3 vali video" startTime="0" endTime="5047" fillType="media" blending="screen" fillVideo="content://media/external/video/media/1000033224" outTime="5015" parent="6321618" s=".rect">
+    <transform />
+    <effect id="com.alightcreative.effects.edgeglow" locallyApplied="true">
+      <property name="smoothing" type="float" value="5.000000" />
+      <property name="threshold" type="float" value="1.000000" />
+      <property name="invert" type="bool" value="false" />
+      <property name="strength" type="float" value="0.000000" />
+      <property name="spread" type="float" value="1.500000" />
+      <property name="fillColor" type="color" value="#fff2a42c" />
+      <property name="blend" type="float" value="0.000000" />
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="brightness" type="float" value="0.000000" />
+      <property name="tintColor" type="color" value="#ff000000" />
+      <property name="tint" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="960.000000,540.000000" />
+  </shape>
+  <shape id="6321615" label="4 vali video" startTime="0" endTime="5047" fillType="media" blending="screen" fillVideo="content://media/external/video/media/1000033221" outTime="5015" parent="6321618" s=".rect">
+    <transform />
+    <property name="size" type="vec2" value="960.000000,540.000000" />
+  </shape>
+  <shape id="6321617" label="1683708483603.png" startTime="0" endTime="5065" fillType="media" blending="multiply" fillImage="content://media/external/images/media/1000033230" parent="6321618" s=".rect">
+    <transform />
+    <property name="size" type="vec2" value="960.000000,540.000000" />
+  </shape>
+  <nullobj id="6321618" label="Null 1" startTime="0" endTime="5065" type="perspective">
+    <transform>
+      <location value="960.000000,540.000000,0.000000" />
+      <scale>
+        <kf t="0.628430" v="1.000000,1.000000" />
+        <kf t="0.003159" v="1.180000,1.180000" />
+      </scale>
+    </transform>
+  </nullobj>
+  <shape id="6321620" label="Rectangle 2" startTime="0" endTime="966" fillType="color" s=".rect">
+    <transform>
+      <location value="960.000000,540.000000,0.000000" />
+      <scale value="9.600000,5.400000" />
+      <opacity>
+        <kf t="0.000000" v="1.000000" />
+        <kf t="1.000000" v="0.000000" />
+      </opacity>
+    </transform>
+    <fillColor value="#ff000000" />
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+  </shape>
+</scene>
