@@ -1,6 +1,6 @@
 {
   "name": "front_end",
-  "version": "5.8.9",
+  "version": "2.2.88",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
